@@ -20,6 +20,6 @@ public class NativePeer {
         System.out.println("8 - 4 = " + calculator.subtract(8, 4));
 
         // You wouldn't normally use this; it's here to show that the native finalizer does get executed.
-        System.runFinalizersOnExit(true);
+        //System.runFinalizersOnExit(true);
     }
 }
