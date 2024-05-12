@@ -1,6 +1,16 @@
 jni.hpp is a modern, type-safe, header-only, C++14  wrapper for [JNI (Java Native Interface)](http://docs.oracle.com/javase/7/docs/technotes/guides/jni/). Its aim is to make calling Java from C++, or C++ from Java, convenient and safe, without sacrificing low-level control, as you commonly do with code generation approaches.
 
+NVIDIA CUDA example added to
+[the `examples` subdirectory](https://github.com/jimgambale/jni.hpp/tree/feature/cuda/examples). 
+
+This code shows the utilizing CUDA with jni.hpp:
+* [CudaPeer.java](https://github.com/jimgambale/jni.hpp/tree/feature/cuda/examples/CudaPeer.java) 
+* [cuda_peer.cu](https://github.com/jimgambale/jni.hpp/tree/feature/cuda/examples/CudaPeer.java) 
+
+
+
 Two levels of wrappers are provided.
+
 
 ## Low-level wrappers
 
